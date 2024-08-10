@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <!--Box icons-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   
+    <!-- Link Swiper's cSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+        <!-- Navbar -->
+        <header>
+            <a href="#" class="logo">
+                <i class='bx bxs-movie'></i>MovieMates
+            </a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+    
+            <!-- Menu -->
+            <ul class="navbar">
+                <li><a href="Index.html" >Home</a></li>
+                <li><a href="Index.html">Movies</a></li>
+                <li><a href="Index.html">Coming</a></li>
+                <li><a href="Index.html">Newsletter</a></li>
+            </ul>
+        </header>
+
+        <div class="wrapper">
+    
+            <div class="form-box signin">
+                <h2>Signin</h2>
+                <form action="process-signup.php" method="post" novalidate>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" id="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" id="password" name="password" required>
+                        <label>Password</label>
+                    </div>
+                    <button type="submit" class="btn" id="btns">Signin</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>&#169; MovieMates All Right Reserved.</p>
+        </div>
+    
+</body>
+</html>
